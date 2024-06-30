@@ -1,0 +1,172 @@
+nav{
+    background-color: gray;
+    height: auto;
+}
+
+.pic{
+    width: 100px;
+    height: 100px;
+}
+
+.item{
+    list-style: none;
+
+}
+.item:hover{
+    cursor: pointer;
+    color: tomato;
+}
+
+.chobi-div{
+
+    margin: 10px;
+
+}
+
+.all-text{
+    margin: 10px;
+}
+
+
+.main-sub-div{
+    border: 1px solid tomato;
+    width: 30%;
+    /* height: 40vh; */
+    text-align: center;
+    margin: 4px;
+    box-shadow: 4px 4px 4px tomato;
+    border-radius: 10px;
+    color:  white;
+    background-image: url(/modal_back.avif);
+    
+}
+
+#product-div{
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-around;
+    
+    gap: 5px;
+    width: 100%;
+    /* height: 300px; */
+    margin: auto;
+    text-align: center;
+    align-items: center;
+    border: 2px  solid tomato;
+    box-shadow: 4px 8px 4px 4px steelblue;
+    padding: 10px;
+
+}
+
+.main-main-div{
+    
+    text-align: center;
+    align-items: center;
+
+}
+.btn-add{
+    box-shadow: 2px 1px 2px tomato;
+    background-color: black;
+    color: white;
+    border-radius: 5px;
+    margin-bottom: 4px;
+}
+.btn-deail{
+    box-shadow: 2px 1px 2px tomato;
+    background-color: rgb(169, 164, 164);
+    color: white;
+    border-radius: 5px;
+    margin-bottom: 4px;
+}
+
+.sec{
+    margin-top: 10%;
+
+}
+.btn-input{
+    margin-left: 160px;
+    margin-bottom: 20px;
+   
+    width: 20%;
+    padding: 10px;
+    
+}
+
+.input-box{
+    border: 2px solid darkmagenta;
+    border-radius: 10px ;
+    height: 10%;
+}
+
+.btn-box{
+    border: 2px solid orange;
+    border-radius: 5px;
+    background-color: gray;
+    color: white;
+}
+
+.cart
+{
+
+    border: 1px solid sienna;
+    box-shadow: 4px 4px 8px slategrey;
+}
+
+.cart-main-main-div{
+    border: 1px solid tomato;
+    width: 100px;
+    /* height: 40vh; */
+    text-align: center;
+    margin: 4px;
+    box-shadow: 4px 4px 4px blue;
+    border-radius: 10px;
+    color:white;
+    /* margin-left: 30%; */
+    margin-bottom:10px;
+    background-image: url(/black.jpg)
+}
+
+
+
+
+
+
+
+.ft{
+    width: 100%;
+    background-color: gray;
+    margin-top: 34vh;
+    /* height: 20vh; */
+}
+
+
+.popup{
+    border: 2px solid gray;
+
+}
+
+.deal-div{
+
+    border:2px solid gray ;
+    width: 50%;
+    text-align: center;
+    margin-left: 100px;
+    box-shadow: 4px 8px 4px tomato;
+    padding: 10px;
+    margin-bottom: 5px;
+    background-image: url(/popbc.avif);
+    color: beige;
+    border-radius: 10px;
+}
+.modal-title{
+    margin-left: 40%;
+    
+}
+.modal-body{
+    background-image: url(/modal_back.avif);
+}
+
+.modal-header{
+    background-color: saddlebrown;
+    color: white;
+}
