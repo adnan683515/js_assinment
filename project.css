@@ -154,7 +154,7 @@ nav{
     box-shadow: 4px 8px 4px tomato;
     padding: 10px;
     margin-bottom: 5px;
-    background-image: url(/popbc.avif);
+    background-image: url(./popbc.avif);
     color: beige;
     border-radius: 10px;
 }
@@ -163,7 +163,7 @@ nav{
     
 }
 .modal-body{
-    background-image: url(/modal_back.avif);
+    background-image: url(./modal_back.avif);
 }
 
 .modal-header{
